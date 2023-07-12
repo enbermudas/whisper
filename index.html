@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link href="./_app/immutable/assets/0.f7ab497c.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/2.1d121e74.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.740d56ba.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.5fc1f1e6.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.42d2603b.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.9813837b.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.9b8ca014.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.a4a264ad.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.e2b366d9.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div class="dark" style="display: contents">  <main class="min-w-screen min-h-screen"><section class="flex w-full flex-col items-center gap-4 p-4 sm:py-10"><div class="bg-white dark:bg-gray-800 text-gray-500 dark:text-gray-400 rounded-lg border border-gray-200 dark:border-gray-700 shadow-md flex max-w-sm flex-col p-4 sm:p-6 min-w-full sm:min-w-[600px]"><form> <textarea id="user-input" placeholder="What is happening?" rows="3" maxlength="50" class="w-full rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:placeholder-gray-400 dark:text-white border border-gray-200 dark:border-gray-600 p-2.5 text-sm focus:ring-primary-500 focus:border-primary-500 dark:focus:ring-primary-500 dark:focus:border-primary-500"></textarea>     <button type="submit" class="text-center font-medium focus:ring-4 focus:outline-none inline-flex items-center justify-center px-5 py-2.5 text-sm text-white bg-blue-700 hover:bg-blue-800 dark:bg-blue-600 dark:hover:bg-blue-700 focus:ring-blue-300 dark:focus:ring-blue-800 rounded-lg mt-2 w-full capitalize">send</button> </form></div>   <div class="h-96 min-w-full sm:min-w-[600px]"><div id="whisper-1" class="bg-white dark:bg-gray-800 text-gray-500 dark:text-gray-400 rounded-lg border border-gray-200 dark:border-gray-700 shadow-md flex max-w-sm flex-col p-4 sm:p-6 mb-4 min-w-full sm:min-w-[600px]"><p class="text-white">You whispers will appear over here. Be careful, you can only see 5 at the time. The rest of them will go directly into the void.</p> <span class="mt-4 w-full text-right text-xs italic">a few seconds ago</span></div>  </div></section></main>  
+			
+			<script>
+				{
+					__sveltekit_1h9nvcp = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.740d56ba.js"),
+						import("./_app/immutable/entry/app.9813837b.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
