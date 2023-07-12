@@ -1,18 +1,8 @@
-# create-svelte
+# whispers
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Twitter/Threads like app made with Svelte, love and powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+This is quite a simple project made with the purpose of testing Svelte.
 
 ## Developing
 
@@ -25,14 +15,8 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
+## Goals
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- [x] Build basic "tweet" functionality.
+- [x] Implement [tailwindcss](https://tailwindcss.com/) for easier styling.
+- [x] Create integratin tests using [playwright](https://playwright.dev/).
