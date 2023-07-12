@@ -19,4 +19,4 @@ npm run dev -- --open
 
 - [x] Build basic "tweet" functionality.
 - [x] Implement [tailwindcss](https://tailwindcss.com/) for easier styling.
-- [x] Create integratin tests using [playwright](https://playwright.dev/).
+- [x] Create integration tests using [playwright](https://playwright.dev/).
