@@ -1,4 +1,4 @@
-# whispers
+# whisper
 
 Twitter/Threads like app made with Svelte, love and powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
